@@ -1,7 +1,7 @@
 import "../Static/scss/app.scss"
 import { NavLink } from "react-router-dom";
-const Index = () => {
 
+const Index = () => {
     return (
         <div className="wrapper">
             <nav id="sidebar" className="sidebar js-sidebar">
@@ -26,19 +26,19 @@ const Index = () => {
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="pages-sign-in.html">
+                            <NavLink className="sidebar-link" to="/pages-sign-in">
                                 <i className="align-middle" data-feather="log-in"></i> <span className="align-middle">Sign In</span>
                             </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="pages-sign-up.html">
+                            <NavLink className="sidebar-link" to="/pages-profile">
                                 <i className="align-middle" data-feather="user-plus"></i> <span className="align-middle">Sign Up</span>
                             </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="pages-blank.html">
+                            <NavLink className="sidebar-link" to="/pages-profile">
                                 <i className="align-middle" data-feather="book"></i> <span className="align-middle">Blank</span>
                             </NavLink>
                         </li>
