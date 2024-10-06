@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-const Pagesprofile = () => {
+const Profile = () => {
     return (
         <div>
             <div className="wrapper">
@@ -486,4 +486,4 @@ const Pagesprofile = () => {
     )
 }
 
-export default Pagesprofile;
+export default Profile;
