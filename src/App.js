@@ -6,6 +6,7 @@ import SignUp from './Components/pagesSignUp';
 import PagesBlank from './Components/pagesBlank';
 import UiButtons from './Components/uiButtons';
 import UiForms from './Components/uiForms';
+import UiCards from './Components/uiCards';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/pages-blank" element={<PagesBlank />} />
         <Route path="/ui-buttons" element={<UiButtons />} />
         <Route path="/ui-forms" element={<UiForms />} />
+        <Route path="/ui-cards" element={<UiCards />} />
       </Routes>
     </Router>
   );
