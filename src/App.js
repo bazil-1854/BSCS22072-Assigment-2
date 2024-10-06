@@ -9,6 +9,7 @@ import UiForms from './Components/uiForms';
 import UiCards from './Components/uiCards';
 import UiTypography from './Components/uiTypography';
 import UiIcons from './Components/uiIcons';
+import UpgradeToPro from './Components/upgradeToPro';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/ui-cards" element={<UiCards />} />
         <Route path="/ui-typography" element={<UiTypography />} />
         <Route path="/ui-icons" element={<UiIcons />} />
+        <Route path="/upgrade-to-pro" element={<UpgradeToPro />} />
       </Routes>
     </Router>
   );
