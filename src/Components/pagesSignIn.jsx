@@ -38,14 +38,14 @@ const Signin = () => {
 											</div>
 										</div>
 										<div className="d-grid gap-2 mt-3">
-											<a href="index.html" className="btn btn-lg btn-primary">Sign in</a>
+											<p className="btn btn-lg btn-primary">Sign in</p>
 										</div>
 									</form>
 								</div>
 							</div>
 						</div>
 						<div className="text-center mb-3">
-							Don't have an account? <a href="pages-sign-up.html">Sign up</a>
+							Don't have an account? Sign up
 						</div>
 					</div>
 				</div>

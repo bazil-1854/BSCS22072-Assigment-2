@@ -26,13 +26,13 @@ const Index = () => {
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" to="/pages-sign-in">
+                            <NavLink className="sidebar-link" to="/pages-SignIn">
                                 <i className="align-middle" data-feather="log-in"></i> <span className="align-middle">Sign In</span>
                             </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" to="/pages-profile">
+                            <NavLink className="sidebar-link" to="/pages-SignUp">
                                 <i className="align-middle" data-feather="user-plus"></i> <span className="align-middle">Sign Up</span>
                             </NavLink>
                         </li>
