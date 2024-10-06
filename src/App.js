@@ -7,6 +7,7 @@ import PagesBlank from './Components/pagesBlank';
 import UiButtons from './Components/uiButtons';
 import UiForms from './Components/uiForms';
 import UiCards from './Components/uiCards';
+import UiTypography from './Components/uiTypography';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/ui-buttons" element={<UiButtons />} />
         <Route path="/ui-forms" element={<UiForms />} />
         <Route path="/ui-cards" element={<UiCards />} />
+        <Route path="/ui-typography" element={<UiTypography />} />
       </Routes>
     </Router>
   );
