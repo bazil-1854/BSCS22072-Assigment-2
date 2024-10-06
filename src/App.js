@@ -5,6 +5,7 @@ import Pagesprofile from './Components/pagesProfile';
 import SignUp from './Components/pagesSignUp';
 import PagesBlank from './Components/pagesBlank';
 import UiButtons from './Components/uiButtons';
+import UiForms from './Components/uiForms';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/pages-SignUp" element={<SignUp />} />
         <Route path="/pages-blank" element={<PagesBlank />} />
         <Route path="/ui-buttons" element={<UiButtons />} />
+        <Route path="/ui-forms" element={<UiForms />} />
       </Routes>
     </Router>
   );
