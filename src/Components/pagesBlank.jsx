@@ -47,31 +47,31 @@ const PagesBlank = () => {
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="ui-buttons.html">
+                            <NavLink className="sidebar-link" to="/ui-buttons">
                                 <i className="align-middle" data-feather="square"></i> <span className="align-middle">Buttons</span>
                             </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="ui-forms.html">
+                            <NavLink className="sidebar-link" to="/ui-forms">
                                 <i className="align-middle" data-feather="check-square"></i> <span className="align-middle">Forms</span>
                             </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="ui-cards.html">
+                            <NavLink className="sidebar-link" to="/ui-cards">
                                 <i className="align-middle" data-feather="grid"></i> <span className="align-middle">Cards</span>
                             </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="ui-typography.html">
+                            <NavLink className="sidebar-link" to="/ui-typography">
                                 <i className="align-middle" data-feather="align-left"></i> <span className="align-middle">Typography</span>
                             </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <NavLink className="sidebar-link" href="icons-feather.html">
+                            <NavLink className="sidebar-link" to="/ui-icons">
                                 <i className="align-middle" data-feather="coffee"></i> <span className="align-middle">Icons</span>
                             </NavLink>
                         </li>
@@ -100,7 +100,7 @@ const PagesBlank = () => {
                                 Are you looking for more components? Check out our premium version.
                             </div>
                             <div className="d-grid">
-                                <NavLink href="upgrade-to-pro.html" className="btn btn-primary">Upgrade to Pro</NavLink>
+                                <NavLink to="/upgrade-to-pro" className="btn btn-primary">Upgrade to Pro</NavLink>
                             </div>
                         </div>
                     </div>
