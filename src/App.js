@@ -4,6 +4,7 @@ import SignIn from './Components/pagesSignIn';
 import Pagesprofile from './Components/pagesProfile';
 import SignUp from './Components/pagesSignUp';
 import PagesBlank from './Components/pagesBlank';
+import UiButtons from './Components/uiButtons';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route path="/pages-profile" element={<Pagesprofile />} />
         <Route path="/pages-SignIn" element={<SignIn />} />
         <Route path="/pages-SignUp" element={<SignUp />} />
-        <Route path="/pages-SignUp" element={<PagesBlank />} />
+        <Route path="/pages-blank" element={<PagesBlank />} />
+        <Route path="/ui-buttons" element={<UiButtons />} />
       </Routes>
     </Router>
   );
