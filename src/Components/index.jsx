@@ -1,49 +1,46 @@
-import React, { useEffect } from 'react'; 
 import "../Static/scss/app.scss"
-
+import { NavLink } from "react-router-dom";
 const Index = () => {
 
     return (
         <div className="wrapper">
             <nav id="sidebar" className="sidebar js-sidebar">
                 <div className="sidebar-content js-simplebar">
-                    <a className="sidebar-brand" href="index.html">
+                    <NavLink className="sidebar-brand" to="/">
                         <span className="align-middle">AdminKit</span>
-                    </a>
+                    </NavLink>
 
                     <ul className="sidebar-nav">
                         <li className="sidebar-header">
                             Pages
                         </li>
-
                         <li className="sidebar-item active">
-                            <a className="sidebar-link" href="index.html">
+                            <NavLink className="sidebar-link" to="/">
                                 <i className="align-middle" data-feather="sliders"></i> <span className="align-middle">Dashboard</span>
-                            </a>
+                            </NavLink>
                         </li>
-
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="pages-profile.html">
+                            <NavLink className="sidebar-link" to="/pages-profile">
                                 <i className="align-middle" data-feather="user"></i> <span className="align-middle">Profile</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="pages-sign-in.html">
+                            <NavLink className="sidebar-link" href="pages-sign-in.html">
                                 <i className="align-middle" data-feather="log-in"></i> <span className="align-middle">Sign In</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="pages-sign-up.html">
+                            <NavLink className="sidebar-link" href="pages-sign-up.html">
                                 <i className="align-middle" data-feather="user-plus"></i> <span className="align-middle">Sign Up</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="pages-blank.html">
+                            <NavLink className="sidebar-link" href="pages-blank.html">
                                 <i className="align-middle" data-feather="book"></i> <span className="align-middle">Blank</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-header">
@@ -51,33 +48,33 @@ const Index = () => {
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="ui-buttons.html">
+                            <NavLink className="sidebar-link" href="ui-buttons.html">
                                 <i className="align-middle" data-feather="square"></i> <span className="align-middle">Buttons</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="ui-forms.html">
+                            <NavLink className="sidebar-link" href="ui-forms.html">
                                 <i className="align-middle" data-feather="check-square"></i> <span className="align-middle">Forms</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="ui-cards.html">
+                            <NavLink className="sidebar-link" href="ui-cards.html">
                                 <i className="align-middle" data-feather="grid"></i> <span className="align-middle">Cards</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="ui-typography.html">
+                            <NavLink className="sidebar-link" href="ui-typography.html">
                                 <i className="align-middle" data-feather="align-left"></i> <span className="align-middle">Typography</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="icons-feather.html">
+                            <NavLink className="sidebar-link" href="icons-feather.html">
                                 <i className="align-middle" data-feather="coffee"></i> <span className="align-middle">Icons</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-header">
@@ -85,15 +82,15 @@ const Index = () => {
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="charts-chartjs.html">
+                            <NavLink className="sidebar-link" href="charts-chartjs.html">
                                 <i className="align-middle" data-feather="bar-chart-2"></i> <span className="align-middle">Charts</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="sidebar-item">
-                            <a className="sidebar-link" href="maps-google.html">
+                            <NavLink className="sidebar-link" href="maps-google.html">
                                 <i className="align-middle" data-feather="map"></i> <span className="align-middle">Maps</span>
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
 
@@ -104,7 +101,7 @@ const Index = () => {
                                 Are you looking for more components? Check out our premium version.
                             </div>
                             <div className="d-grid">
-                                <a href="upgrade-to-pro.html" className="btn btn-primary">Upgrade to Pro</a>
+                                <NavLink href="upgrade-to-pro.html" className="btn btn-primary">Upgrade to Pro</NavLink>
                             </div>
                         </div>
                     </div>
@@ -120,18 +117,18 @@ const Index = () => {
                     <div className="navbar-collapse collapse">
                         <ul className="navbar-nav navbar-align">
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                <NavLink className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="bell"></i>
                                         <span className="indicator">4</span>
                                     </div>
-                                </a>
+                                </NavLink>
                                 <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
                                     <div className="dropdown-menu-header">
                                         4 New Notifications
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-danger" data-feather="alert-circle"></i>
@@ -142,8 +139,8 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">30m ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </NavLink>
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-warning" data-feather="bell"></i>
@@ -154,8 +151,8 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">2h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </NavLink>
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-primary" data-feather="home"></i>
@@ -165,8 +162,8 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">5h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </NavLink>
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-success" data-feather="user-plus"></i>
@@ -177,19 +174,19 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">14h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </NavLink>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all notifications</a>
+                                        <NavLink href="#" className="text-muted">Show all notifications</NavLink>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                                <NavLink className="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="message-square"></i>
                                     </div>
-                                </a>
+                                </NavLink>
                                 <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="messagesDropdown">
                                     <div className="dropdown-menu-header">
                                         <div className="position-relative">
@@ -197,7 +194,7 @@ const Index = () => {
                                         </div>
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker" />
@@ -208,8 +205,8 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">15m ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </NavLink>
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris" />
@@ -220,8 +217,8 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">2h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </NavLink>
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason" />
@@ -232,8 +229,8 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">4h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </NavLink>
+                                        <NavLink href="#" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman" />
@@ -244,29 +241,29 @@ const Index = () => {
                                                     <div className="text-muted small mt-1">5h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </NavLink>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all messages</a>
+                                        <NavLink href="#" className="text-muted">Show all messages</NavLink>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                                <NavLink className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
                                     <i className="align-middle" data-feather="settings"></i>
-                                </a>
+                                </NavLink>
 
-                                <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                                <NavLink className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
                                     <img src="img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
-                                </a>
+                                </NavLink>
                                 <div className="dropdown-menu dropdown-menu-end">
-                                    <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+                                    <NavLink className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</NavLink>
+                                    <NavLink className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</NavLink>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+                                    <NavLink className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</NavLink>
+                                    <NavLink className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</NavLink>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Log out</a>
+                                    <NavLink className="dropdown-item" href="#">Log out</NavLink>
                                 </div>
                             </li>
                         </ul>
@@ -549,22 +546,22 @@ const Index = () => {
                         <div className="row text-muted">
                             <div className="col-6 text-start">
                                 <p className="mb-0">
-                                    <a className="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a className="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
+                                    <p className="text-muted" ><strong>AdminKit</strong></p> - <p className="text-muted" ><strong>Bootstrap Admin Template</strong></p>								&copy;
                                 </p>
                             </div>
                             <div className="col-6 text-end">
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
-                                        <a className="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+                                        <p className="text-muted" >Support</p>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a className="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
+                                        <p className="text-muted" >Help Center</p>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a className="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+                                        <p className="text-muted" >Privacy</p>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a className="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+                                        <p className="text-muted" >Terms</p>
                                     </li>
                                 </ul>
                             </div>
