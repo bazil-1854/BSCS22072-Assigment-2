@@ -6,32 +6,20 @@ import CoffeeStats from './CoffeeStats'
 import Navbar from './Navbar'
 import EcoFriendlySystem from './EcoFriendlySystem'
 import Footer from './Footer'
+import Main from './Main'
 
 const Index = () => {
     return (
-        <div>
+        <>
             <Navbar />
-            <section className="banner-area" id="home">
-                <div className="container">
-                    <div className="row fullscreen d-flex align-items-center justify-content-start">
-                        <div className="banner-content col-lg-7">
-                            <h6 className="text-white text-uppercase">Now you can feel the Energy</h6>
-                            <h1>
-                                Start your day with <br />
-                                a black Coffee
-                            </h1>
-                            <a href="/" className="primary-btn text-uppercase">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Main />
             <LiveCoffeeMaking />
             <CoffeeServe />
             <KindofCoffee />
             <CoffeeStats />
             <EcoFriendlySystem />
-            <Footer/>
-        </div>
+            <Footer />
+        </>
     )
 }
 
