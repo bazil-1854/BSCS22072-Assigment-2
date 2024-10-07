@@ -3,54 +3,12 @@ import LiveCoffeeMaking from './LiveCoffeeMaking'
 import CoffeeServe from './CoffeeServe'
 import KindofCoffee from './KindofCoffee'
 import CoffeeStats from './CoffeeStats'
+import Navbar from './Navbar'
 
 const Index = () => {
     return (
         <div>
-            <header id="header" >
-                <div className="header-top">
-                    <div className="container">
-                        <div className="row justify-content-end">
-                            <div className="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
-                                <ul>
-                                    <li>
-                                        Mon-Fri: 8am to 2pm
-                                    </li>
-                                    <li>
-                                        Sat-Sun: 11am to 4pm
-                                    </li>
-                                    <li>
-                                        <a href="tel:(012) 6985 236 7512">(012) 6985 236 7512</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className="row align-items-center justify-content-between d-flex">
-                        <div id="logo">
-                            <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-                        </div>
-                        <nav id="nav-menu-container">
-                            <ul className="nav-menu">
-                                <li className="menu-active"><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#coffee">Coffee</a></li>
-                                <li><a href="#review">Review</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                <li className="menu-has-children"><a href="">Pages</a>
-                                    <ul>
-                                        <li><a href="generic.html">Generic</a></li>
-                                        <li><a href="elements.html">Elements</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-
+            <Navbar/>
             <section className="banner-area" id="home">
                 <div className="container">
                     <div className="row fullscreen d-flex align-items-center justify-content-start">
@@ -60,12 +18,11 @@ const Index = () => {
                                 Start your day with <br />
                                 a black Coffee
                             </h1>
-                            <a href="#" className="primary-btn text-uppercase">Buy Now</a>
+                            <a href="/" className="primary-btn text-uppercase">Buy Now</a>
                         </div>
                     </div>
                 </div>
             </section>
-
 
             <LiveCoffeeMaking />
             <CoffeeServe />
@@ -86,10 +43,10 @@ const Index = () => {
                         <div className="col-lg-6 col-md-6 single-blog">
                             <img className="img-fluid" src="img/b1.jpg" alt="" />
                             <ul className="post-tags">
-                                <li><a href="#">Travel</a></li>
-                                <li><a href="#">Life Style</a></li>
+                                <li><a href="/">Travel</a></li>
+                                <li><a href="/">Life Style</a></li>
                             </ul>
-                            <a href="#"><h4>Portable latest Fashion for young women</h4></a>
+                            <a href="/"><h4>Portable latest Fashion for young women</h4></a>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
                             </p>
@@ -100,10 +57,10 @@ const Index = () => {
                         <div className="col-lg-6 col-md-6 single-blog">
                             <img className="img-fluid" src="img/b2.jpg" alt="" />
                             <ul className="post-tags">
-                                <li><a href="#">Travel</a></li>
-                                <li><a href="#">Life Style</a></li>
+                                <li><a href="/">Travel</a></li>
+                                <li><a href="/">Life Style</a></li>
                             </ul>
-                            <a href="#"><h4>Portable latest Fashion for young women</h4></a>
+                            <a href="/"><h4>Portable latest Fashion for young women</h4></a>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore.
                             </p>
@@ -125,7 +82,7 @@ const Index = () => {
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
                                 </p>
                                 <p className="footer-text">
-                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" >Colorlib</a>
                                 </p>
                             </div>
                         </div>
@@ -134,7 +91,7 @@ const Index = () => {
                                 <h6>Newsletter</h6>
                                 <p>Stay update with our latest</p>
                                 <div className="" id="mc_embed_signup">
-                                    <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" className="form-inline">
+                                    <form novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" className="form-inline">
                                         <input className="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email" />
                                         <button className="click-btn btn btn-default"><i className="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                                         <div style={{ position: 'absolute', left: '-5000px' }}>
@@ -151,10 +108,10 @@ const Index = () => {
                                 <h6>Follow Us</h6>
                                 <p>Let us be social</p>
                                 <div className="footer-social d-flex align-items-center">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-dribbble"></i></a>
-                                    <a href="#"><i className="fa fa-behance"></i></a>
+                                    <a href="/KindofCoffee"><i className="fa fa-facebook"></i></a>
+                                    <a href="/KindofCoffee"><i className="fa fa-twitter"></i></a>
+                                    <a href="/KindofCoffee"><i className="fa fa-dribbble"></i></a>
+                                    <a href="/KindofCoffee"><i className="fa fa-behance"></i></a>
                                 </div>
                             </div>
                         </div>
