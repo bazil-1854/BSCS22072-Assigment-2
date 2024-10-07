@@ -22,5 +22,17 @@
     "Education": "BS in Computer Science",
     "Certification": "AWS Certified",
     "Contact": "bazil@example.com"
+  },
+  {
+    "Name": "Suhail Ahmad Khan",
+    "Title": "Software Engineer",
+    "TargetedKeywords": [
+      "JavaScript",
+      "Node.js",
+      "React"
+    ],
+    "Education": "BS in Software",
+    "Certification": "Azure",
+    "Contact": "suhail@example.com"
   }
 ]
