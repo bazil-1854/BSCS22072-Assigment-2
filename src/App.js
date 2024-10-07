@@ -7,6 +7,7 @@ import CoffeeStats from './Components/CoffeeStats';
 import CoffeeServe from './Components/CoffeeServe';
 import EcoFriendlySystem from './Components/EcoFriendlySystem';
 import Generic from './Components/Generic';
+import Elements from './Components/Elements';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Footer" element={<Footer />} />
         
         <Route path="/Generic" element={<Generic />} />
+        <Route path="/Elements" element={<Elements />} />
       </Routes>
     </Router>
   );
