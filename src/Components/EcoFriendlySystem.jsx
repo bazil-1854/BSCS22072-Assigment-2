@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const EcoFriendlySystem = () => {
     return (
         <section className="blog-area section-gap" id="blog">
+            <Navbar />
             <div className="container">
                 <div className="row d-flex justify-content-center">
                     <div className="menu-content pb-60 col-lg-10">

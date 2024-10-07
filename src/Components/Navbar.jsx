@@ -29,11 +29,11 @@ const Navbar = () => {
                     </div>
                     <nav id="nav-menu-container">
                         <ul className="nav-menu">
-                            <li className="menu-active"><a href="/home">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/coffee">Coffee</a></li>
-                            <li><a href="/review">Review</a></li>
-                            <li><a href="/blog">Blog</a></li>
+                            <li className="menu-active"><a href="/">Home</a></li>
+                            <li><a href="/LiveCoffeeMaking">About</a></li>
+                            <li><a href="/CoffeeServe">Coffee</a></li>
+                            <li><a href="/KindofCoffee">Review</a></li>
+                            <li><a href="/CoffeeStats">Blog</a></li>
                             <li className="menu-has-children"><a href="/">Pages</a>
                                 <ul>
                                     <li><a href="/">Generic</a></li>

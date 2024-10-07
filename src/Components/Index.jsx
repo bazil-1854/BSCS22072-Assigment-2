@@ -25,13 +25,11 @@ const Index = () => {
                     </div>
                 </div>
             </section>
-
             <LiveCoffeeMaking />
             <CoffeeServe />
             <KindofCoffee />
             <CoffeeStats />
             <EcoFriendlySystem />
-
             <Footer/>
         </div>
     )
