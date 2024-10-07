@@ -36,7 +36,7 @@ const Navbar = () => {
                             <li><a href="/CoffeeStats">Blog</a></li>
                             <li className="menu-has-children"><a href="/">Pages</a>
                                 <ul>
-                                    <li><a href="/">Generic</a></li>
+                                    <li><a href="/Generic">Generic</a></li>
                                     <li><a href="/">Elements</a></li>
                                 </ul>
                             </li>

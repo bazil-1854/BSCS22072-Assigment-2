@@ -6,6 +6,7 @@ import LiveCoffeeMaking from './Components/LiveCoffeeMaking';
 import CoffeeStats from './Components/CoffeeStats';
 import CoffeeServe from './Components/CoffeeServe';
 import EcoFriendlySystem from './Components/EcoFriendlySystem';
+import Generic from './Components/Generic';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/EcoFriendlySystem" element={<EcoFriendlySystem />} />
         <Route path="/KindofCoffee" element={<KindofCoffee />} />
         <Route path="/Footer" element={<Footer />} />
+        
+        <Route path="/Generic" element={<Generic />} />
       </Routes>
     </Router>
   );
