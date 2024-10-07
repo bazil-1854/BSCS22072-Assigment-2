@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom'
 import Navbar from './Navbar';
+import Footer from './Footer';
 const Profile = () => {
     return (
         <div>
             <div className="wrapper">
-               
-            <Navbar/>
+
+                <Navbar />
                 <div className="main">
                     <nav className="navbar navbar-expand navbar-light navbar-bg">
                         <a className="sidebar-toggle js-sidebar-toggle">
@@ -350,33 +351,8 @@ const Profile = () => {
                         </div>
                     </main>
 
-                    <footer className="footer">
-                        <div className="container-fluid">
-                            <div className="row text-muted">
-                                <div className="col-6 text-start">
-                                    <p className="mb-0">
-                                        <a className="text-muted"><strong>AdminKit</strong></a> - <a className="text-muted"><strong>Bootstrap Admin Template</strong></a>								&copy;
-                                    </p>
-                                </div>
-                                <div className="col-6 text-end">
-                                    <ul className="list-inline">
-                                        <li className="list-inline-item">
-                                            <a className="text-muted">Support</a>
-                                        </li>
-                                        <li className="list-inline-item">
-                                            <a className="text-muted">Help Center</a>
-                                        </li>
-                                        <li className="list-inline-item">
-                                            <a className="text-muted">Privacy</a>
-                                        </li>
-                                        <li className="list-inline-item">
-                                            <a className="text-muted">Terms</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
+
+                    <Footer />
                 </div>
             </div>
 

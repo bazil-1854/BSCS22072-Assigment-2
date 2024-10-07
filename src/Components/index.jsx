@@ -1,6 +1,7 @@
 import "../Static/scss/app.scss"
 import { NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Index = () => {
     return (
@@ -440,33 +441,8 @@ const Index = () => {
                     </div>
                 </main>
 
-                <footer className="footer">
-                    <div className="container-fluid">
-                        <div className="row text-muted">
-                            <div className="col-6 text-start">
-                                <p className="mb-0">
-                                    <p className="text-muted" ><strong>AdminKit</strong></p> - <p className="text-muted" ><strong>Bootstrap Admin Template</strong></p>								&copy;
-                                </p>
-                            </div>
-                            <div className="col-6 text-end">
-                                <ul className="list-inline">
-                                    <li className="list-inline-item">
-                                        <p className="text-muted" >Support</p>
-                                    </li>
-                                    <li className="list-inline-item">
-                                        <p className="text-muted" >Help Center</p>
-                                    </li>
-                                    <li className="list-inline-item">
-                                        <p className="text-muted" >Privacy</p>
-                                    </li>
-                                    <li className="list-inline-item">
-                                        <p className="text-muted" >Terms</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+              
+                <Footer/>
             </div>
         </div>
     )
