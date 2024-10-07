@@ -43,6 +43,22 @@ app.post('/profile', (req, res) => {
     });
 });
 
+app.get('/csv-profiles', (req, res) => {
+    const profiles = [];
+     
+    fs.createReadStream('profiles.csv')
+        .pipe(csvParser())
+        .on('data', (row) => {
+            profiles.push(row);  
+        })
+        .on('end', () => {
+            res.status(200).json(profiles);
+        })
+        .on('error', (err) => {
+            res.status(500).json({ error: 'Failed to read profiles CSV file' });
+        });
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
