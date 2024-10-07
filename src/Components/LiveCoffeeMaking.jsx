@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const LiveCoffeeMaking = () => {
     return (
-        <section className="video-sec-area pb-100 pt-40" id="about">
+        <section style={{ paddingTop: '150px' }} className="video-sec-area pb-100 pt-40" id="about">
             <Navbar />
             <div className="container">
                 <div className="row justify-content-start align-items-center">
