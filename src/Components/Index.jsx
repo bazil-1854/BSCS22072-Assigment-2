@@ -1,5 +1,6 @@
 import React from 'react'
-import LiveCoffeeMaking from './LiveCoffeeMaking' 
+import LiveCoffeeMaking from './LiveCoffeeMaking'
+import CoffeeServe from './CoffeeServe'
 
 const Index = () => {
     return (
@@ -64,7 +65,8 @@ const Index = () => {
             </section>
 
 
-            <LiveCoffeeMaking /> 
+            <LiveCoffeeMaking />
+            <CoffeeServe />
             <section className="gallery-area section-gap" id="gallery">
                 <div className="container">
                     <div className="row d-flex justify-content-center">
