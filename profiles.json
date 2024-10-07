@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Amjad Khan",
+    "Title": "Software Engineer",
+    "TargetedKeywords": [
+      "JavaScript",
+      "Node.js",
+      "React"
+    ],
+    "Education": "BS in Computer Science",
+    "Certification": "AWS Certified",
+    "Contact": "amjad@example.com"
+  },
+  {
+    "Name": "Bazil Khan",
+    "Title": "Software Engineer",
+    "TargetedKeywords": [
+      "Next Js",
+      "Node.js",
+      "React"
+    ],
+    "Education": "BS in Computer Science",
+    "Certification": "AWS Certified",
+    "Contact": "bazil@example.com"
+  }
+]
