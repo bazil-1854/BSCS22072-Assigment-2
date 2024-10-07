@@ -1,37 +1,42 @@
-# Coffee Master
-This project is a React equivalent code of the `coffee-master` template
+# Node.js HTTP Server Assignment
+
+## Overview
+
+This project demonstrates the implementation of a simple HTTP server using Node.js. The server handles GET and POST requests to manage a professional profile, providing endpoints for greeting users and saving profile data.
+
+## Features
+
+1. **GET /hello/:name** - Returns a personalized greeting.
+2. **POST /profile** - Receives a JSON object containing professional profile information, validates the object, and saves it to a file.
+3. **GET /profiles** - Returns a list of all saved profiles.
 
 ## Technologies Used
-- React
-- Bootstrap 
-- Scss
-- Git for version control
 
-# Setup Instructions
-<hr/>
-To run the project locally, follow these steps:
+- Node.js
+- Express.js (optional for easier routing and middleware management)
+- JSON for data handling
 
-```bash
-   git clone https://github.com/bazil-1854/BSCS22072-Semester-Project.git
-```
-For going to this branch, use this command otherwise skip it
-```bash
-   git checkout coffee-master
-```
-Go to the project directory
+## Endpoints
 
-```bash
-   cd my-project
-```
-Then **Run** this command in your terminal to install all required dependancies:
+### 1. GET /hello/:name
 
-```bash
-   npm install
-```
-In the project directory, you can run:
+- **Description**: Returns a greeting message for the specified name.
+- **Method**: GET
+- **Response**: 
+  - If successful: `Hello, {name}.`
+  - Example: `GET /hello/amjad` returns `Hello, Amjad.`
 
-```bash
-   npm start
-``` 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. POST /profile
+
+- **Description**: Receives a JSON object containing professional profile information.
+- **Method**: POST
+- **Request Body**: 
+  ```json
+  {
+    "Name": "Your Name",
+    "Title": "Your Title",
+    "Targeted Keywords": ["keyword1", "keyword2"],
+    "Education": "Your Education",
+    "Certification": "Your Certification",
+    "Contact": "Your Contact Information"
+  }
