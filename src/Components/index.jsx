@@ -17,7 +17,7 @@ const Index = () => {
                     <div className="navbar-collapse collapse">
                         <ul className="navbar-nav navbar-align">
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                <NavLink className="nav-icon dropdown-toggle" href="/" id="alertsDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="bell"></i>
                                         <span className="indicator">4</span>
@@ -28,7 +28,7 @@ const Index = () => {
                                         4 New Notifications
                                     </div>
                                     <div className="list-group">
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-danger" data-feather="alert-circle"></i>
@@ -40,7 +40,7 @@ const Index = () => {
                                                 </div>
                                             </div>
                                         </NavLink>
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-warning" data-feather="bell"></i>
@@ -52,7 +52,7 @@ const Index = () => {
                                                 </div>
                                             </div>
                                         </NavLink>
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-primary" data-feather="home"></i>
@@ -63,7 +63,7 @@ const Index = () => {
                                                 </div>
                                             </div>
                                         </NavLink>
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-success" data-feather="user-plus"></i>
@@ -77,12 +77,12 @@ const Index = () => {
                                         </NavLink>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <NavLink href="#" className="text-muted">Show all notifications</NavLink>
+                                        <NavLink href="/" className="text-muted">Show all notifications</NavLink>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                                <NavLink className="nav-icon dropdown-toggle" href="/" id="messagesDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="message-square"></i>
                                     </div>
@@ -94,7 +94,7 @@ const Index = () => {
                                         </div>
                                     </div>
                                     <div className="list-group">
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker" />
@@ -106,7 +106,7 @@ const Index = () => {
                                                 </div>
                                             </div>
                                         </NavLink>
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris" />
@@ -118,7 +118,7 @@ const Index = () => {
                                                 </div>
                                             </div>
                                         </NavLink>
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason" />
@@ -130,7 +130,7 @@ const Index = () => {
                                                 </div>
                                             </div>
                                         </NavLink>
-                                        <NavLink href="#" className="list-group-item">
+                                        <NavLink href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman" />
@@ -144,26 +144,26 @@ const Index = () => {
                                         </NavLink>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <NavLink href="#" className="text-muted">Show all messages</NavLink>
+                                        <NavLink href="/" className="text-muted">Show all messages</NavLink>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                                <NavLink className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="/" data-bs-toggle="dropdown">
                                     <i className="align-middle" data-feather="settings"></i>
                                 </NavLink>
 
-                                <NavLink className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                                <NavLink className="nav-link dropdown-toggle d-none d-sm-inline-block" href="/" data-bs-toggle="dropdown">
                                     <img src="img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
                                 </NavLink>
                                 <div className="dropdown-menu dropdown-menu-end">
                                     <NavLink className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</NavLink>
-                                    <NavLink className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</NavLink>
+                                    <NavLink className="dropdown-item" href="/"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</NavLink>
                                     <div className="dropdown-divider"></div>
                                     <NavLink className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</NavLink>
-                                    <NavLink className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</NavLink>
+                                    <NavLink className="dropdown-item" href="/"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</NavLink>
                                     <div className="dropdown-divider"></div>
-                                    <NavLink className="dropdown-item" href="#">Log out</NavLink>
+                                    <NavLink className="dropdown-item" href="/">Log out</NavLink>
                                 </div>
                             </li>
                         </ul>

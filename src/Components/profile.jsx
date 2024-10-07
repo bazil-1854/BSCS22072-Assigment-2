@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import Navbar from './Navbar';
 import Footer from './Footer';
 const Profile = () => {
@@ -9,25 +8,25 @@ const Profile = () => {
                 <Navbar />
                 <div className="main">
                     <nav className="navbar navbar-expand navbar-light navbar-bg">
-                        <a className="sidebar-toggle js-sidebar-toggle">
+                        <p className="sidebar-toggle js-sidebar-toggle">
                             <i className="hamburger align-self-center"></i>
-                        </a>
+                        </p>
 
                         <div className="navbar-collapse collapse">
                             <ul className="navbar-nav navbar-align">
                                 <li className="nav-item dropdown">
-                                    <a className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                    <p className="nav-icon dropdown-toggle"   id="alertsDropdown" data-bs-toggle="dropdown">
                                         <div className="position-relative">
                                             <i className="align-middle" data-feather="bell"></i>
                                             <span className="indicator">4</span>
                                         </div>
-                                    </a>
+                                    </p>
                                     <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
                                         <div className="dropdown-menu-header">
                                             4 New Notifications
                                         </div>
                                         <div className="list-group">
-                                            <a href="#" className="list-group-item">
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <i className="text-danger" data-feather="alert-circle"></i>
@@ -38,8 +37,8 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">30m ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="#" className="list-group-item">
+                                            </p>
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <i className="text-warning" data-feather="bell"></i>
@@ -50,8 +49,8 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">2h ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="#" className="list-group-item">
+                                            </p>
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <i className="text-primary" data-feather="home"></i>
@@ -61,8 +60,8 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">5h ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="#" className="list-group-item">
+                                            </p>
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <i className="text-success" data-feather="user-plus"></i>
@@ -73,19 +72,19 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">14h ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </p>
                                         </div>
                                         <div className="dropdown-menu-footer">
-                                            <a href="#" className="text-muted">Show all notifications</a>
+                                            <p   className="text-muted">Show all notifications</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                                    <p className="nav-icon dropdown-toggle"   id="messagesDropdown" data-bs-toggle="dropdown">
                                         <div className="position-relative">
                                             <i className="align-middle" data-feather="message-square"></i>
                                         </div>
-                                    </a>
+                                    </p>
                                     <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="messagesDropdown">
                                         <div className="dropdown-menu-header">
                                             <div className="position-relative">
@@ -93,7 +92,7 @@ const Profile = () => {
                                             </div>
                                         </div>
                                         <div className="list-group">
-                                            <a href="#" className="list-group-item">
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <img src="img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker" />
@@ -104,8 +103,8 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">15m ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="#" className="list-group-item">
+                                            </p>
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <img src="img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris" />
@@ -116,8 +115,8 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">2h ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="#" className="list-group-item">
+                                            </p>
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <img src="img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason" />
@@ -128,8 +127,8 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">4h ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="#" className="list-group-item">
+                                            </p>
+                                            <p   className="list-group-item">
                                                 <div className="row g-0 align-items-center">
                                                     <div className="col-2">
                                                         <img src="img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman" />
@@ -140,29 +139,29 @@ const Profile = () => {
                                                         <div className="text-muted small mt-1">5h ago</div>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </p>
                                         </div>
                                         <div className="dropdown-menu-footer">
-                                            <a href="#" className="text-muted">Show all messages</a>
+                                            <p   className="text-muted">Show all messages</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                                    <p className="nav-icon dropdown-toggle d-inline-block d-sm-none"   data-bs-toggle="dropdown">
                                         <i className="align-middle" data-feather="settings"></i>
-                                    </a>
+                                    </p>
 
-                                    <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                                    <p className="nav-link dropdown-toggle d-none d-sm-inline-block"   data-bs-toggle="dropdown">
                                         <img src="img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
-                                    </a>
+                                    </p>
                                     <div className="dropdown-menu dropdown-menu-end">
-                                        <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</a>
-                                        <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+                                        <p className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</p>
+                                        <p className="dropdown-item"  ><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</p>
                                         <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
-                                        <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+                                        <p className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</p>
+                                        <p className="dropdown-item"  ><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</p>
                                         <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="#">Log out</a>
+                                        <p className="dropdown-item"  >Log out</p>
                                     </div>
                                 </li>
                             </ul>
@@ -174,9 +173,9 @@ const Profile = () => {
 
                             <div className="mb-3">
                                 <h1 className="h3 d-inline align-middle">Profile</h1>
-                                <a className="badge bg-dark text-white ms-2" href="upgrade-to-pro.html">
+                                <p className="badge bg-dark text-white ms-2" href="upgrade-to-pro.html">
                                     Get more page examples
-                                </a>
+                                </p>
                             </div>
                             <div className="row">
                                 <div className="col-md-4 col-xl-3">
@@ -190,42 +189,42 @@ const Profile = () => {
                                             <div className="text-muted mb-2">Lead Developer</div>
 
                                             <div>
-                                                <a className="btn btn-primary btn-sm" href="#">Follow</a>
-                                                <a className="btn btn-primary btn-sm" href="#"><span data-feather="message-square"></span> Message</a>
+                                                <p className="btn btn-primary btn-sm"  >Follow</p>
+                                                <p className="btn btn-primary btn-sm"  ><span data-feather="message-square"></span> Message</p>
                                             </div>
                                         </div>
                                         <hr className="my-0" />
                                         <div className="card-body">
                                             <h5 className="h6 card-title">Skills</h5>
-                                            <a href="#" className="badge bg-primary me-1 my-1">HTML</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">JavaScript</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">Sass</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">Angular</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">Vue</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">React</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">Redux</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">UI</a>
-                                            <a href="#" className="badge bg-primary me-1 my-1">UX</a>
+                                            <p   className="badge bg-primary me-1 my-1">HTML</p>
+                                            <p   className="badge bg-primary me-1 my-1">JavaScript</p>
+                                            <p   className="badge bg-primary me-1 my-1">Sass</p>
+                                            <p   className="badge bg-primary me-1 my-1">Angular</p>
+                                            <p   className="badge bg-primary me-1 my-1">Vue</p>
+                                            <p   className="badge bg-primary me-1 my-1">React</p>
+                                            <p   className="badge bg-primary me-1 my-1">Redux</p>
+                                            <p   className="badge bg-primary me-1 my-1">UI</p>
+                                            <p   className="badge bg-primary me-1 my-1">UX</p>
                                         </div>
                                         <hr className="my-0" />
                                         <div className="card-body">
                                             <h5 className="h6 card-title">About</h5>
                                             <ul className="list-unstyled mb-0">
-                                                <li className="mb-1"><span data-feather="home" className="feather-sm me-1"></span> Lives in <a href="#">San Francisco, SA</a></li>
+                                                <li className="mb-1"><span data-feather="home" className="feather-sm me-1"></span> Lives in <p  >San Francisco, SA</p></li>
 
-                                                <li className="mb-1"><span data-feather="briefcase" className="feather-sm me-1"></span> Works at <a href="#">GitHub</a></li>
-                                                <li className="mb-1"><span data-feather="map-pin" className="feather-sm me-1"></span> From <a href="#">Boston</a></li>
+                                                <li className="mb-1"><span data-feather="briefcase" className="feather-sm me-1"></span> Works at <p  >GitHub</p></li>
+                                                <li className="mb-1"><span data-feather="map-pin" className="feather-sm me-1"></span> From <p  >Boston</p></li>
                                             </ul>
                                         </div>
                                         <hr className="my-0" />
                                         <div className="card-body">
                                             <h5 className="h6 card-title">Elsewhere</h5>
                                             <ul className="list-unstyled mb-0">
-                                                <li className="mb-1"><a href="#">staciehall.co</a></li>
-                                                <li className="mb-1"><a href="#">Twitter</a></li>
-                                                <li className="mb-1"><a href="#">Facebook</a></li>
-                                                <li className="mb-1"><a href="#">Instagram</a></li>
-                                                <li className="mb-1"><a href="#">LinkedIn</a></li>
+                                                <li className="mb-1"><p  >staciehall.co</p></li>
+                                                <li className="mb-1"><p  >Twitter</p></li>
+                                                <li className="mb-1"><p  >Facebook</p></li>
+                                                <li className="mb-1"><p  >Instagram</p></li>
+                                                <li className="mb-1"><p  >LinkedIn</p></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -262,7 +261,7 @@ const Profile = () => {
                                                         pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
                                                     </div>
 
-                                                    <a href="#" className="btn btn-sm btn-danger mt-1"><i className="feather-sm" data-feather="heart"></i> Like</a>
+                                                    <p   className="btn btn-sm btn-danger mt-1"><i className="feather-sm" data-feather="heart"></i> Like</p>
                                                 </div>
                                             </div>
 
@@ -271,7 +270,7 @@ const Profile = () => {
                                                 <img src="img/avatars/avatar-4.jpg" width="36" height="36" className="rounded-circle me-2" alt="Christina Mason" />
                                                 <div className="flex-grow-1">
                                                     <small className="float-end text-navy">1h ago</small>
-                                                    <strong>Christina Mason</strong> posted a new blog<br />
+                                                    <strong>Christina Mason</strong> posted p new blog<br />
 
                                                     <small className="text-muted">Today 6:35 pm</small>
                                                 </div>
@@ -294,7 +293,7 @@ const Profile = () => {
                                                         </div>
                                                     </div>
 
-                                                    <a href="#" className="btn btn-sm btn-danger mt-1"><i className="feather-sm" data-feather="heart"></i> Like</a>
+                                                    <p   className="btn btn-sm btn-danger mt-1"><i className="feather-sm" data-feather="heart"></i> Like</p>
                                                 </div>
                                             </div>
 
@@ -307,9 +306,9 @@ const Profile = () => {
                                                     <small className="text-muted">Yesterday 3:12 pm</small>
 
                                                     <div className="d-flex align-items-start mt-1">
-                                                        <a className="pe-3" href="#">
+                                                        <p className="pe-3"  >
                                                             <img src="img/avatars/avatar-4.jpg" width="36" height="36" className="rounded-circle me-2" alt="Christina Mason" />
-                                                        </a>
+                                                        </p>
                                                         <div className="flex-grow-1">
                                                             <div className="border text-sm text-muted p-2 mt-1">
                                                                 Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
@@ -324,7 +323,7 @@ const Profile = () => {
                                                 <img src="img/avatars/avatar-4.jpg" width="36" height="36" className="rounded-circle me-2" alt="Christina Mason" />
                                                 <div className="flex-grow-1">
                                                     <small className="float-end text-navy">1d ago</small>
-                                                    <strong>Christina Mason</strong> posted a new blog<br />
+                                                    <strong>Christina Mason</strong> posted p new blog<br />
                                                     <small className="text-muted">Yesterday 2:43 pm</small>
                                                 </div>
                                             </div>
@@ -341,7 +340,7 @@ const Profile = () => {
 
                                             <hr />
                                             <div className="d-grid">
-                                                <a href="#" className="btn btn-primary">Load more</a>
+                                                <p   className="btn btn-primary">Load more</p>
                                             </div>
                                         </div>
                                     </div>

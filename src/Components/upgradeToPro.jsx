@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
@@ -10,25 +9,25 @@ const UpgradeToPro = () => {
 
             <div className="main">
                 <nav className="navbar navbar-expand navbar-light navbar-bg">
-                    <a className="sidebar-toggle js-sidebar-toggle">
+                    <p className="sidebar-toggle js-sidebar-toggle">
                         <i className="hamburger align-self-center"></i>
-                    </a>
+                    </p>
 
                     <div className="navbar-collapse collapse">
                         <ul className="navbar-nav navbar-align">
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                <p className="nav-icon dropdown-toggle" href="/" id="alertsDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="bell"></i>
                                         <span className="indicator">4</span>
                                     </div>
-                                </a>
+                                </p>
                                 <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
                                     <div className="dropdown-menu-header">
                                         4 New Notifications
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-danger" data-feather="alert-circle"></i>
@@ -40,7 +39,7 @@ const UpgradeToPro = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-warning" data-feather="bell"></i>
@@ -52,7 +51,7 @@ const UpgradeToPro = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-primary" data-feather="home"></i>
@@ -63,7 +62,7 @@ const UpgradeToPro = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-success" data-feather="user-plus"></i>
@@ -77,12 +76,12 @@ const UpgradeToPro = () => {
                                         </a>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all notifications</a>
+                                        <a href="/" className="text-muted">Show all notifications</a>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                                <a className="nav-icon dropdown-toggle" href="/" id="messagesDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="message-square"></i>
                                     </div>
@@ -94,7 +93,7 @@ const UpgradeToPro = () => {
                                         </div>
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker" />
@@ -106,7 +105,7 @@ const UpgradeToPro = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris" />
@@ -118,7 +117,7 @@ const UpgradeToPro = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason" />
@@ -130,7 +129,7 @@ const UpgradeToPro = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman" />
@@ -144,26 +143,26 @@ const UpgradeToPro = () => {
                                         </a>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all messages</a>
+                                        <a href="/" className="text-muted">Show all messages</a>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                                <a className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="/" data-bs-toggle="dropdown">
                                     <i className="align-middle" data-feather="settings"></i>
                                 </a>
 
-                                <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                                <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="/" data-bs-toggle="dropdown">
                                     <img src="img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
                                 </a>
                                 <div className="dropdown-menu dropdown-menu-end">
                                     <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+                                    <a className="dropdown-item" href="/"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
                                     <div className="dropdown-divider"></div>
                                     <a className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+                                    <a className="dropdown-item" href="/"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Log out</a>
+                                    <a className="dropdown-item" href="/">Log out</a>
                                 </div>
                             </li>
                         </ul>
@@ -197,10 +196,10 @@ const UpgradeToPro = () => {
                                                     <tr>
                                                         <td className="text-center"></td>
                                                         <td className="text-center">
-                                                            <a target="_blank" href="https://adminkit.io/" className="btn btn-light">Download</a>
+                                                            <a href="https://adminkit.io/" className="btn btn-light">Download</a>
                                                         </td>
                                                         <td className="text-center">
-                                                            <a target="_blank" href="https://adminkit.io/pricing" className="btn btn-primary">Upgrade to Pro</a>
+                                                            <a href="https://adminkit.io/pricing" className="btn btn-primary">Upgrade to Pro</a>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -271,10 +270,10 @@ const UpgradeToPro = () => {
                                                     <tr>
                                                         <td className="text-center"></td>
                                                         <td className="text-center">
-                                                            <a target="_blank" href="https://adminkit.io/" className="btn btn-light">Download</a>
+                                                            <p   href="https://adminkit.io/" className="btn btn-light">Download</p>
                                                         </td>
                                                         <td className="text-center">
-                                                            <a target="_blank" href="https://adminkit.io/pricing" className="btn btn-primary">Upgrade to Pro</a>
+                                                            <p  href="https://adminkit.io/pricing" className="btn btn-primary">Upgrade to Pro</p>
                                                         </td>
                                                     </tr>
                                                 </tbody>

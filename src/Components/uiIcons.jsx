@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
@@ -10,25 +9,25 @@ const UiIcons = () => {
 
             <div className="main">
                 <nav className="navbar navbar-expand navbar-light navbar-bg">
-                    <a className="sidebar-toggle js-sidebar-toggle">
+                    <p className="sidebar-toggle js-sidebar-toggle">
                         <i className="hamburger align-self-center"></i>
-                    </a>
+                    </p>
 
                     <div className="navbar-collapse collapse">
                         <ul className="navbar-nav navbar-align">
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                <p className="nav-icon dropdown-toggle"   id="alertsDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="bell"></i>
                                         <span className="indicator">4</span>
                                     </div>
-                                </a>
+                                </p>
                                 <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
                                     <div className="dropdown-menu-header">
                                         4 New Notifications
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-danger" data-feather="alert-circle"></i>
@@ -39,8 +38,8 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">30m ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </p>
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-warning" data-feather="bell"></i>
@@ -51,8 +50,8 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">2h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </p>
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-primary" data-feather="home"></i>
@@ -62,8 +61,8 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">5h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </p>
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-success" data-feather="user-plus"></i>
@@ -74,19 +73,19 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">14h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </p>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all notifications</a>
+                                        <p   className="text-muted">Show all notifications</p>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                                <p className="nav-icon dropdown-toggle"   id="messagesDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="message-square"></i>
                                     </div>
-                                </a>
+                                </p>
                                 <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="messagesDropdown">
                                     <div className="dropdown-menu-header">
                                         <div className="position-relative">
@@ -94,7 +93,7 @@ const UiIcons = () => {
                                         </div>
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker"/>
@@ -105,8 +104,8 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">15m ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </p>
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris"/>
@@ -117,8 +116,8 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">2h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </p>
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason"/>
@@ -129,8 +128,8 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">4h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" className="list-group-item">
+                                        </p>
+                                        <p   className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman"/>
@@ -141,29 +140,29 @@ const UiIcons = () => {
                                                     <div className="text-muted small mt-1">5h ago</div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </p>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all messages</a>
+                                        <p   className="text-muted">Show all messages</p>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                                <p className="nav-icon dropdown-toggle d-inline-block d-sm-none"   data-bs-toggle="dropdown">
                                     <i className="align-middle" data-feather="settings"></i>
-                                </a>
+                                </p>
 
-                                <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                                <p className="nav-link dropdown-toggle d-none d-sm-inline-block"   data-bs-toggle="dropdown">
                                     <img src="img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
-                                </a>
+                                </p>
                                 <div className="dropdown-menu dropdown-menu-end">
-                                    <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+                                    <p className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</p>
+                                    <p className="dropdown-item"  ><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</p>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+                                    <p className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</p>
+                                    <p className="dropdown-item"  ><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</p>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Log out</a>
+                                    <p className="dropdown-item"  >Log out</p>
                                 </div>
                             </li>
                         </ul>
@@ -175,9 +174,9 @@ const UiIcons = () => {
 
                         <div className="mb-3">
                             <h1 className="h3 d-inline align-middle">Feather</h1>
-                            <a className="badge bg-dark text-white ms-2" href="upgrade-to-pro.html">
+                            <p className="badge bg-dark text-white ms-2" href="upgrade-to-pro.html">
                                 Get more icons
-                            </a>
+                            </p>
                         </div>
                         <div className="card">
                             <div className="card-header">

@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import Navbar from './Navbar'
 
 const UiTypography = () => {
@@ -8,14 +7,14 @@ const UiTypography = () => {
          <Navbar/>
             <div className="main">
                 <nav className="navbar navbar-expand navbar-light navbar-bg">
-                    <a className="sidebar-toggle js-sidebar-toggle">
+                    <p className="sidebar-toggle js-sidebar-toggle">
                         <i className="hamburger align-self-center"></i>
-                    </a>
+                    </p>
 
                     <div className="navbar-collapse collapse">
                         <ul className="navbar-nav navbar-align">
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                                <a className="nav-icon dropdown-toggle" href="/" id="alertsDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="bell"></i>
                                         <span className="indicator">4</span>
@@ -26,7 +25,7 @@ const UiTypography = () => {
                                         4 New Notifications
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-danger" data-feather="alert-circle"></i>
@@ -38,7 +37,7 @@ const UiTypography = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-warning" data-feather="bell"></i>
@@ -50,7 +49,7 @@ const UiTypography = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-primary" data-feather="home"></i>
@@ -61,7 +60,7 @@ const UiTypography = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <i className="text-success" data-feather="user-plus"></i>
@@ -75,12 +74,12 @@ const UiTypography = () => {
                                         </a>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all notifications</a>
+                                        <a href="/" className="text-muted">Show all notifications</a>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                                <a className="nav-icon dropdown-toggle" href="/" id="messagesDropdown" data-bs-toggle="dropdown">
                                     <div className="position-relative">
                                         <i className="align-middle" data-feather="message-square"></i>
                                     </div>
@@ -92,7 +91,7 @@ const UiTypography = () => {
                                         </div>
                                     </div>
                                     <div className="list-group">
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker" />
@@ -104,7 +103,7 @@ const UiTypography = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris" />
@@ -116,7 +115,7 @@ const UiTypography = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason" />
@@ -128,7 +127,7 @@ const UiTypography = () => {
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" className="list-group-item">
+                                        <a href="/" className="list-group-item">
                                             <div className="row g-0 align-items-center">
                                                 <div className="col-2">
                                                     <img src="img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman" />
@@ -142,26 +141,26 @@ const UiTypography = () => {
                                         </a>
                                     </div>
                                     <div className="dropdown-menu-footer">
-                                        <a href="#" className="text-muted">Show all messages</a>
+                                        <a href="/" className="text-muted">Show all messages</a>
                                     </div>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                                <p className="nav-icon dropdown-toggle d-inline-block d-sm-none" href="/" data-bs-toggle="dropdown">
                                     <i className="align-middle" data-feather="settings"></i>
-                                </a>
+                                </p>
 
-                                <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                                <p className="nav-link dropdown-toggle d-none d-sm-inline-block" href="/" data-bs-toggle="dropdown">
                                     <img src="img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
-                                </a>
+                                </p>
                                 <div className="dropdown-menu dropdown-menu-end">
-                                    <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+                                    <p className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</p>
+                                    <p className="dropdown-item" href="/"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</p>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
-                                    <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+                                    <p className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</p>
+                                    <p className="dropdown-item" href="/"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</p>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Log out</a>
+                                    <p className="dropdown-item" href="/">Log out</p>
                                 </div>
                             </li>
                         </ul>
